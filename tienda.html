@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EcoVida - Tienda Eco</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <!-- Menú navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">EcoVida</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="tienda.html">Tienda Eco</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido Tienda -->
+  <main class="container my-5">
+    <h1 class="mb-4">Productos Sostenibles</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Producto 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1590080877777-25379f0a237b?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Botella Reutilizable" />
+          <div class="card-body">
+            <h5 class="card-title">Botella Reutilizable</h5>
+            <p class="card-text">Mantén hidratado y reduce el uso de plásticos con esta botella eco-friendly.</p>
+            <p class="text-success fw-bold">$25.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Bolsa Reutilizable" />
+          <div class="card-body">
+            <h5 class="card-title">Bolsa Reutilizable</h5>
+            <p class="card-text">Perfecta para tus compras diarias, duradera y ecológica.</p>
+            <p class="text-success fw-bold">$15.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1515177935489-5bfad2deedb8?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Set de Cubiertos de Bambú" />
+          <div class="card-body">
+            <h5 class="card-title">Set de Cubiertos de Bambú</h5>
+            <p class="card-text">Lleva contigo este set reutilizable y olvídate de los desechables.</p>
+            <p class="text-success fw-bold">$30.000 COP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="bg-success text-white text-center p-3">
+    <p>&copy; 2025 EcoVida - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
