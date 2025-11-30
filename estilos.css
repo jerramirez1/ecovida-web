@@ -1,0 +1,33 @@
+/* Estilos Globales */
+body {
+    font-family: Arial, sans-serif;
+    /* Cambia la fuente */
+    background-color: #f4f4f4;
+    /* Fondo gris muy claro para el cuerpo */
+    color: #333;
+    /* Color de texto estándar */
+    margin: 0;
+    /* Elimina el margen predeterminado del navegador */
+    padding: 0;
+}
+
+/* Estilo para el encabezado (Header) */
+header {
+    background-color: #2e8b57;
+    /* Verde mar para el encabezado de EcoVida */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+/* Estilo de Contenido principal */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
